@@ -96,8 +96,7 @@ html{
 
 /* home section styles */
 .home{
-    display: flex;
-    background: url(./hacker-working-darkness-resize.jpg) no-repeat center fixed;
+    background: url(./overhead-view-laptop-with-pen-adhesive-notes-black-background-resize.jpg) no-repeat center fixed;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -356,6 +355,7 @@ section .title::after{
     border-radius: 6px;
     box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.3);
     position: relative;
+    transition: all 0.3s ease;
 }
 
 .portfolio-content{
@@ -380,8 +380,10 @@ section .title::after{
     display: none;
 }
 .text-overlay h1,
-.text-overlay p{
+.text-overlay p,
+.text-overlay h1 a{
     color: #fff;
+    transition: all 0.3s ease;
 }
 .text-overlay h1{
     font-size: 1.2rem;
