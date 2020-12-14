@@ -379,7 +379,8 @@ section .title::after{
     background-color: rgba(218, 47, 81, 0.7);
     display: none;
 }
-.text-overlay h1,p{
+.text-overlay h1,
+.text-overlay p{
     color: #fff;
 }
 .text-overlay h1{
