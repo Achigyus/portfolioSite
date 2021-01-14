@@ -96,7 +96,7 @@ html{
 
 /* home section styles */
 .home{
-    background: url(./overhead-view-laptop-with-pen-adhesive-notes-black-background-resize.jpg) no-repeat center fixed;
+    background: url(./247.jpg) no-repeat center fixed;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -230,12 +230,13 @@ section .title::after{
 }
 
 /* services section styles */
-.services, .teams{
+.services, .teams, .portfolio{
     background: #111;
     color: #fff;
 }
 .services .title::before,
-.teams .title::before{
+.teams .title::before,
+.portfolio .title::before{
     background: #fff;
 }
 .services .title::after{
@@ -289,7 +290,7 @@ section .title::after{
 .skills .skills-content .left p{
     text-align: justify;
 }
-.skills .skills-content .left a{
+.skills .skills-content .left .a{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -301,9 +302,13 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.skills .skills-content .left a:hover{
+.skills .skills-content .left .a:hover{
     color: crimson;
     background: none;
+}
+.black{
+    color: #111;
+    cursor: pointer;
 }
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
@@ -348,6 +353,7 @@ section .title::after{
 /* portfolio section styles */
 .portfolio .title::after{
     content: "my projects";
+    background-color: #111;
 }
 .p-box{
     background-color: #1f1f1f;
