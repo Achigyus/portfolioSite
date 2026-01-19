@@ -20,20 +20,20 @@ export const metadata: Metadata = {
   },
   description: "Full-stack developer and digital craftsman passionate about creating innovative web solutions",
   keywords: ["developer", "portfolio", "React", "Next.js", "TypeScript", "full-stack", "web development", "achigyus"],
-  authors: [{ name: "Achigyus", url: "https://www.achigyus.dev" }],
+  authors: [{ name: "Achigyus", url: "https://achigyus-portfolio.vercel.app/" }],
   creator: "Achigyus",
   
   // Open Graph
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.achigyus.dev",
+    url: "https://achigyus-portfolio.vercel.app",
     title: "Achigyus - Portfolio",
     description: "Full-stack developer and digital craftsman passionate about creating innovative web solutions",
     siteName: "Achigyus Portfolio",
     images: [
       {
-        url: "https://www.achigyus.dev/og-image.png",
+        url: "https://achigyus-portfolio.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "Achigyus Portfolio"
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "Achigyus - Portfolio",
     description: "Full-stack developer and digital craftsman passionate about creating innovative web solutions",
     creator: "@achigyus",
-    images: ["https://www.achigyus.dev/og-image.png"]
+    images: ["https://achigyus-portfolio.vercel.app/og-image.png"]
   },
 
   // Icons & PWA
